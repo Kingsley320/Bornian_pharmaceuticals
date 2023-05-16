@@ -1,0 +1,63 @@
+body {
+    background-color: whitesmoke;
+}
+
+.bgImage {
+    width: 100%;
+    margin-top: 80px;
+}
+
+form span{
+    color: red;
+}
+
+.margin-ll {
+    margin-left: 150px;
+}
+
+.DodgerB {
+    color: dodgerblue;
+}
+
+.b-Dodger {
+    background-color: dodgerblue;
+}
+
+.login-I input {
+    border: solid 1px dodgerblue;
+    width: 80%;
+}
+
+.bouncee {
+    animation: bounce 1.5s infinite;
+    /* transform: rotate(45deg); */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* @media (max-width: 768px) {
+}
+
+@media (max-width: 576px){
+    .bgImage{
+        margin-left: 0;
+    }
+    .margin-ll{
+        margin-left: 10px;
+    }
+    .login-I input{
+        width: 80%;
+    }
+} */
