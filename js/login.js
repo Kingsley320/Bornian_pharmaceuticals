@@ -1,14 +1,23 @@
+<<<<<<< HEAD
 let userObj = [{
+=======
+
+let userObj =  [{
+
+>>>>>>> 29a5b6bdcd5bb42af6726831bd7376c37f5e357d
   firstName: "Kingsley",
   lastName: "Owolabi",
   age: 29,
   email: "king@example.com",
   password: "Male",
+
 },];
+
 window.localStorage.setItem('users', JSON.stringify(userObj));
 let obj = JSON.parse(window.localStorage.getItem('users'));
 console.log(obj);
 // localStorage.removeItem('users')
+
 let email = document.querySelector('.email');
 let password = document.querySelector('.password');
 
@@ -19,8 +28,10 @@ function validate() {
       inputs[i].classList.add("is-invalid");
     } else {
       inputs[i].classList.remove("is-invalid");
+
       // obj[inputs[i].name] = inputs[i].value;
       authourize();
+
     }
   }
 }
@@ -42,6 +53,7 @@ function authourize() {
     return;
   }
 }
+
 
 let btn = document.querySelector(".btn");
 btn.addEventListener("click", () => {
