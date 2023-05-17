@@ -1,4 +1,4 @@
-let userObj =  [{
+let userObj = [{
   firstName: "Kingsley",
   lastName: "Owolabi",
   age: 29,
@@ -11,6 +11,7 @@ console.log(obj);
 // localStorage.removeItem('users')
 let email = document.querySelector('.email');
 let password = document.querySelector('.password');
+
 function validate() {
   let inputs = document.getElementsByTagName("input");
   for (let i = 0; i < inputs.length; i++) {
@@ -31,12 +32,12 @@ function authourize() {
   // const authUser = userObj.find(user => user.email == email.value && user.password == password.value)
   const authUser = obj.find(user => user.email == email.value && user.password == password.value)
   console.log(authUser);
-  
-  if(authUser){
+
+  if (authUser) {
     // alert('Authorised');
-    location.href =  "www.google.com";
+    location.href = "www.google.com";
   }
-  else{
+  else {
     alert("Unauthorised")
     return;
   }
