@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 let userObj = [{
-=======
-
-let userObj =  [{
-
->>>>>>> 29a5b6bdcd5bb42af6726831bd7376c37f5e357d
   firstName: "Kingsley",
   lastName: "Owolabi",
   age: 29,
