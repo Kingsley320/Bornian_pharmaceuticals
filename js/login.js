@@ -1,16 +1,22 @@
+
 let userObj =  [{
+
   firstName: "Kingsley",
   lastName: "Owolabi",
   age: 29,
   email: "king@example.com",
   password: "Male",
+
 },];
+
 window.localStorage.setItem('users', JSON.stringify(userObj));
 let obj = JSON.parse(window.localStorage.getItem('users'));
 console.log(obj);
 // localStorage.removeItem('users')
+
 let email = document.querySelector('.email');
 let password = document.querySelector('.password');
+
 function validate() {
   let inputs = document.getElementsByTagName("input");
   for (let i = 0; i < inputs.length; i++) {
@@ -18,8 +24,10 @@ function validate() {
       inputs[i].classList.add("is-invalid");
     } else {
       inputs[i].classList.remove("is-invalid");
+
       // obj[inputs[i].name] = inputs[i].value;
       authourize();
+
     }
   }
 }
@@ -41,6 +49,7 @@ function authourize() {
     return;
   }
 }
+
 
 let btn = document.querySelector(".btn");
 btn.addEventListener("click", () => {
