@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+let userObj = [{
+=======
 
 let userObj =  [{
 
+>>>>>>> 29a5b6bdcd5bb42af6726831bd7376c37f5e357d
   firstName: "Kingsley",
   lastName: "Owolabi",
   age: 29,
@@ -39,12 +43,12 @@ function authourize() {
   // const authUser = userObj.find(user => user.email == email.value && user.password == password.value)
   const authUser = obj.find(user => user.email == email.value && user.password == password.value)
   console.log(authUser);
-  
-  if(authUser){
+
+  if (authUser) {
     // alert('Authorised');
-    location.href =  "www.google.com";
+    location.href = "www.google.com";
   }
-  else{
+  else {
     alert("Unauthorised")
     return;
   }

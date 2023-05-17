@@ -1,11 +1,3 @@
-// var typed = new Typed('#welcomeTYP', {
-//     strings: ["PLease Sign Up"],
-//     typeSpeed: 60,
-//     backSpeed: 60,
-//     loop: false
-//   });
-
-
 function validation() {
     let FirstName = document.getElementById("exampleInputName1");
     // let FirstErr = document.getElementById("FirstNameErr");
