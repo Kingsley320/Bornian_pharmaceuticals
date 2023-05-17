@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <h2  style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px;" class="fw-bold">SIGN UP</h2>
+
+  <form class="login-I">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="./images/Welcome-to-scribie-512x391 (1).svg" class="bgImage bouncee img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 ps-5">
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">First Name</label>
+            <input type="email" class="form-control inputErr" id="exampleInputName1" aria-describedby="emailHelp">
+            <span id="FirstNameErr"></span>
+              
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Last Name</label>
+            <input type="email" class="form-control inputErr" id="exampleInputName2" aria-describedby="emailHelp"> 
+            <span id="LastNameErr"></span>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control inputErr" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <span id="EmailErr"></span>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control inputErr" id="exampleInputPassword1">
+            <span id="passwrdErr"></span>
+          </div>
+          <button type="button" id="submit" class="btn btn-primary mt-3">Submit</button>
+          <p class="mt-2">Already Have an account? <a href="#">Login Here</a></p>
+        </div>
+      </div>
+    </div>
+  </form>
+  
+  <script src="bootstrap.bundle.min.js"></script>
+  <!-- Typing js link -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!--  -->
+  <script src="./js/register.js"></script>
+</body>
+
+</html>
