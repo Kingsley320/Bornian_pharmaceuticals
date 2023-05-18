@@ -1,0 +1,11 @@
+.body{
+    background-image: url(../images/diagnosis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+ height: 500px;
+}
+.body img{
+    width: 100%;
+}
