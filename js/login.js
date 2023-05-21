@@ -23,7 +23,7 @@ function authourize() {
   console.log(authUser);
 
   if (authUser) {
-    location.href = "./diagnosis.html";
+    location.href = "./home.html";
   } else {
     alert("Unauthorised");
     return;

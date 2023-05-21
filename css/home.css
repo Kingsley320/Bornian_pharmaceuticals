@@ -1,0 +1,81 @@
+
+.background1 {
+    position: relative;
+}
+
+.background1 img {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1263px;
+    height: 700px;
+    margin-top: 65px;
+    opacity: 0.7;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.background1 h1 {
+    font-size: 50px;
+    margin-top: -500px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+.background1 h4 {
+    margin-top: -370px;
+    margin-left: 85px;
+    position: absolute;
+}
+
+.background1 button {
+    background: linear-gradient(to left, blue);
+    margin-top: -550px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.background1 button:hover {
+    /* background-color: skyblue; */
+    box-shadow: 2px 2px 15px;
+}
+
+.HEC-cards {
+    margin-top: -24px;
+}
+
+.HEC-cards button:hover {
+    color: #0D6EFD;
+}
+
+.HEC-cards i {
+    font-size: 45px;
+    /* margin-top: 140px; */
+    margin-left: 50px;
+}
+
+.HEC-cards p {
+    font-weight: 400;
+    width: 90%;
+}
+
+.HEC-cards h3,
+p {
+    color: white;
+    margin-left: 50px;
+}
+
+.hospitality {
+    /* border: solid 1px skyblue; */
+    background-color: #83C4FF;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.Emergency {
+    background-color: #0D6EFD;
+    padding-top: 35px;
+}
+
+.Chamber {
+    background-color: #83C4FF;
+}

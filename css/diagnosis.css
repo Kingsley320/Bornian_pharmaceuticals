@@ -1,11 +1,48 @@
-.body{
-    background-image: url(../images/diagnosis.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
- height: 500px;
+.body {
+  background-image: url(../images/diagnosis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  height: 700px;
 }
-.body img{
-    width: 100%;
+
+/* Cool scroll animation  */
+/* @keyframes slideUp {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-700px);
+    }
+}
+
+.move{
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+} */
+
+form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+form label{
+    padding: 10px;
+    border: 2px solid #0d6efd;
+    border-radius: 30px;
+    background-color: #0d6efd;
+    color: white;
+    /* display: flex; */
+    text-align: center;
+    margin: 10px 0;
+}
+form input:checked{
+ background-color: red;   
+}
+
+.userIcon{
+    margin-left: 5vw;
 }
