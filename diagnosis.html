@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/diagnosis.css">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <script src="./js/diagnosis.js" defer></script>
+    <title>Diagnosis</title>
+</head>
+
+<body class="">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top overflow-hidden ">
+            <div class="container-fluid d-flex">
+                <a class="navbar-brand ms-5" style="font-family: 'Courier New', Courier, monospace; font-weight: 900;"
+                    href="#"><img src="./images/Heart_logo_-removebg-preview.png"
+                        style="width: 100px; margin-top: -20px; margin-bottom: -40px;" alt="">Bornian</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse userIcon justify-content-end me-5" id="navbarNavAltMarkup">
+                    <a href="https://wa.me/09058297207" class="text-dark me-3 text-decoration-none fw-bold">Contact
+                        Us</a>
+                    <button type="button" class="btn btn-primary fw-bold me-2"><a href="./construction.html"
+                            class="text-white text-decoration-none">Logout</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="move">
+
+        <div class="d-flex text-center bg-dark body align-content-center mb-5 pb-5">
+            <div class="col text-center align-self-center text-white ">
+                <h1 class="text-white fw-bolder">Get a quick checkup and skip the patient line</h1>
+                <p class="fs-5 ">Check your symptoms and match with records in our large database.</p>
+                <div class="btn-group gap-3 btn-group-lg">
+                    <a class="btn btn-md btn-primary " id="btn" href="#diagnose">Get Diagnosis</a>
+                    <a class="btn btn-md btn-outline-primary" href="./construction.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <section class=" container mb-5 text-center" >
+            <h1 class="mt-5 mb-5 d-flex justify-content-center text-decoration-underline fw-bold" id="diagnose">Pick Your Symptoms
+            </h1>
+
+            <div class="row w-100 " data-bs-spy="scroll">
+                <div class="col-lg-5 col-md-5 mx-auto">
+                    <img src="./images/diagnosis2.jpg" alt="" srcset="" class="img-fluid rounded-5">
+                </div>
+                <div class="col-lg-6 col-md-5">
+                    <form class="container  mt-3 grid text-center">
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Fever">
+                            Fever
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Cough">
+                            Cough
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Sore throat">
+                            Sore throat
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Shortness of breath">
+                            Shortness of breath
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Fatigue">
+                            Fatigue
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Muscle or body aches">
+                            Muscle or body aches
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Headache">
+                            Headache
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Loss of taste or smell">
+                            Loss of taste or smell
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Nasal congestion">
+                            Nasal congestion
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Runny or stuffy nose">
+                            Runny or stuffy nose
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Nausea or vomiting">
+                            Nausea or vomiting
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Diarrhea">
+                            Diarrhea
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Chills">
+                            Chills
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Repeated shaking with chills">
+                            Repeated shaking
+                        </label>
+                        <label>
+                            <input class="input" type="checkbox" name="symptom" value="Unexplained rash">
+                            Unexplained rash
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <button class=" btn-primary btn w-25 rounded mx-auto mt-5" id="diagnosis-btn">Get Diagnosis</button>
+
+        </section>
+        <section class="container w-100 mx-auto  mb-5" id="diagnosisbody">
+
+
+
+        </section>
+    </section>
+
+
+    <footer class="bg-dark text-white h-100 d-flex justify-content-center align-content-center py-5">
+        <p class="d-flex py-5">© Bornian Pharmaceuticals - 2023</p>
+    </footer>
+
+</body>
+
+</html>
