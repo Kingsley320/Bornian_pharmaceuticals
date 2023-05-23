@@ -27,7 +27,7 @@ function validation() {
     userData.push(obj);
     localStorage.setItem("Details", JSON.stringify(userData));
     // alert("Registration Successful");
-    location.href = './login.html'
+    location.href = './index.html'
   }
 }
 

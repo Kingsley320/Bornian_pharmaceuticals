@@ -15,8 +15,6 @@ function validate() {
 }
 
 function authourize() {
-  let email = document.querySelector(".email");
-  let password = document.querySelector(".password");
   const authUser = obj.find(
     (user) => user.Email == email.value && user.Password == password.value
   );
