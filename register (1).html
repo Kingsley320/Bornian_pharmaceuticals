@@ -10,9 +10,10 @@
   <title>Register</title>
 </head>
 
-<body>
+<body class="bg-white">
 
-  <h2  style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px;" class="fw-bold">SIGN UP</h2>
+  <h2 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px;"
+    class="fw-bold">SIGN UP</h2>
 
   <form class="login-I">
     <div class="container">
@@ -23,13 +24,27 @@
         <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 ps-5">
           <div class="mb-3">
             <label for="exampleInputName1" class="form-label">First Name</label>
-            <input type="email" class="form-control inputErr" id="exampleInputName1" aria-describedby="emailHelp">
+            <input type="text" class="form-control inputErr" id="exampleInputName1" aria-describedby="emailHelp">
             <span id="FirstNameErr"></span>
-              
+          </div>
+          <!-- Modal Container -->
+          <div id="appointmentModal">
+            <!-- Modal Content -->
+            <div class="modal-content">
+              <!-- Close Button -->
+              <span class="close" style="margin-left: 530px;" id="myModal" onclick="CancleBtn()">&times;</span>
+              <!-- Modal Content Body -->
+              <h5 class="text-align-center">Congratulations🎉! on you've successfully signed up. You are
+                now part of our valued community. We look forward
+                to serving you and meeting all your healthcare needs.!</h5>
+              <h5 class="text-dark mt-3">Click <strong>Okay</strong> to proceed to the login page.</h5>
+              <a href="login (1).html"><button class="btn btn-md btn-primary mt-3"
+                  style="width: 100%;">Okay</button></a>
+            </div>
           </div>
           <div class="mb-3">
             <label for="exampleInputName1" class="form-label">Last Name</label>
-            <input type="email" class="form-control inputErr" id="exampleInputName2" aria-describedby="emailHelp"> 
+            <input type="text" class="form-control inputErr" id="exampleInputName2" aria-describedby="emailHelp">
             <span id="LastNameErr"></span>
           </div>
           <div class="mb-3">
@@ -43,17 +58,19 @@
             <span id="passwrdErr"></span>
           </div>
           <button type="button" id="submit" class="btn btn-primary mt-3">Submit</button>
-          <p class="mt-2">Already Have an account? <a href="./index.html">Login Here</a></p>
+          <p class="mt-2 text-dark already-copyright">Already Have an account? <a href="./login (1).html">Login Here</a>
+          </p>
+          <p class="text-dark already-copyright">© 2023 bornian pharmaceuticals.com</p>
         </div>
       </div>
     </div>
   </form>
-  
+
   <script src="./js/bootstrap.bundle.min.js"></script>
   <!-- Typing js link -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <!--  -->
-  <script src="./js/register.js"></script>
+  <script src="./home.js"></script>
 </body>
 
 </html>
